@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\Infinite Nine\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.pythonPath": "C:\\Users\\Ryzen\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
     "files.associations": {
         "array": "cpp",
         "atomic": "cpp",
@@ -40,6 +40,6 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
     "code-runner.runInTerminal": true
 }

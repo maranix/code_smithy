@@ -1,5 +1,3 @@
-package Java;
-
 /**
  This is to ensure that the Java extension pack of VSCode is working properly with IntelliSense
  */
