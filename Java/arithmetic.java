@@ -18,8 +18,8 @@ class arithmetic{
         System.out.println("Enter an integer b: ");
         b=scan.nextInt();
 
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
+        System.out.println("Sum: " + (a+b));
+        System.out.println("Difference: " + (a-b));
+        System.out.println("Multiplication: " + (a*b));
     }
 }

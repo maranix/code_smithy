@@ -9,10 +9,11 @@ class division{
     public static void main(String[] args) {
         int a,b;
         Scanner scan= new Scanner(System.in);
+        System.out.println("Enter the value of a and b");
         a=scan.nextInt();
         b=scan.nextInt();
 
-        System.out.println(a/b);
-        System.out.println((float)a/b);
+        System.out.println("Integer division: " + (a/b));
+        System.out.println("Floating division: " + ((float)a/b));
     }
 }

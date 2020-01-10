@@ -3,16 +3,17 @@
 int main()
 {
 int n;
+printf("Enter a digit: ");
 scanf("%d", &n);
 int digit, temp, sum = 0;
 temp = n;
-//Complete the code to calculate the sum of the five digits on n.
+
 while(temp > 0)
 {
     digit = temp % 10;
     sum = sum + digit;
     temp = temp / 10;
 }
-printf("%d\n",sum);
+printf("Sum: %d", sum);
 return 0;
 }

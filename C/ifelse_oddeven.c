@@ -17,7 +17,7 @@ int main()
     printf("Enter an integer: ");
     scanf("%d", &n);
 
-    printf(n);
+    printf("%d\n", n);
 
     if (n % 2 != 0)
     {

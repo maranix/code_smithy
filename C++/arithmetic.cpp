@@ -14,13 +14,16 @@ using namespace std;
 class arithmetic{
     public:
         int add(int x, int y){
-           cout<<x+y<<endl;
+           cout<<"Sum : "<<x+y<<endl;
+           return 0;
         }
         int sub(int x, int y){
-            cout<<x-y<<endl;
+            cout<<"Difference : "<<x-y<<endl;
+            return 0;
         }
         int mul(int x, int y){
-            cout<<x*y<<endl;
+            cout<<"Multiplication : "<<x*y<<endl;
+            return 0;
         }
 };
 

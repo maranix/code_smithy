@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int ascii(char a){
-    printf("\nASCII Value: %d", a);
+    printf("ASCII Value: %d", a);
 }
 
 int main(){
