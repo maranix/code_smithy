@@ -11,13 +11,18 @@
         Syntax: show dbs
 
 3.) Insertion in database
-    Insertion process in databse requires following code.
+    Insertion process in database requires following code.
     
         Syntax: db.database_name.insert({"key":"value"})
 
 4.) Deleting a database
-    Deletion process in databse requires following steps.
+    Deletion process in database requires following steps.
       1.) select the database using "use" command.
       2.) run db.dropDatabase() function.
     
         Syntax: db.dropDatabase()
+
+5.) Find in database
+    Find function or keyword lists all the inserted values in a database along with its (unique object id, key and value).
+    
+        Syntax: db.database_name.find()
