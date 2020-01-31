@@ -1,0 +1,6 @@
+MongoDB has a unique way of representing data types in which each data type is associated with an alias as well as a number that is usually used to search or find any specific record within a MongoDB database.
+MongoDB allows its users to implement different variations of data types.
+
+1.) Integer:
+            db.datatype.insert({"Integer": 2})
+
