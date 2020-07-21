@@ -8,7 +8,6 @@ void main() {
       expect(result, equals('One for you, one for me.'));
     }, skip: false);
 
-/*
     test('a name given', () {
       final String result = twoFer('Alice');
       expect(result, equals('One for Alice, one for me.'));
@@ -17,6 +16,6 @@ void main() {
     test('another name given', () {
       final String result = twoFer('Bob');
       expect(result, equals('One for Bob, one for me.'));
-    }, skip: true); */
+    }, skip: true);
   });
 }
