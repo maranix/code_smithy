@@ -8,7 +8,7 @@ public class break_integer {
         System.out.println("Enter an integer: ");
         Scanner scan = new Scanner(System.in);
         n=scan.nextInt();
-
+        scan.close();
         //Reverse the input number
         while (n!=0) {
             s=n%10;

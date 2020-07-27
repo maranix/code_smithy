@@ -12,12 +12,13 @@ import java.util.Scanner;
 class arithmetic{
     public static void main(String[] args) {
         int a, b;
-        System.out.println("Enter an integer a: ");
         Scanner scan= new Scanner(System.in);
+        System.out.println("Enter an integer a: ");
         a=scan.nextInt();
         System.out.println("Enter an integer b: ");
         b=scan.nextInt();
-
+        scan.close();
+        
         System.out.println("Sum: " + (a+b));
         System.out.println("Difference: " + (a-b));
         System.out.println("Multiplication: " + (a*b));

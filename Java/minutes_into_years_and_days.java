@@ -11,6 +11,7 @@ public class minutes_into_years_and_days {
         System.out.print("Input the number of minutes: ");
 
         double min = scan.nextDouble();
+        scan.close();
 
         long years = (long) (min / minutesInAYear);
         int days = (int) (min / 60 / 24) % 365;

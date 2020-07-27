@@ -7,6 +7,7 @@ public class sum_of_digits{
         System.out.println("Enter an integer between 0-1000");
         Scanner scan = new Scanner(System.in);
         n = scan.nextInt();
+        scan.close();
 
         if (n<=1000) {
             while (n!=0) {

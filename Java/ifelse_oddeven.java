@@ -20,7 +20,7 @@ public class ifelse_oddeven {
     System.out.println("Enter an integer: ");
     Scanner in=new Scanner(System.in);
     n=in.nextInt();
-
+    in.close();
     if (n%2!=0) {
         System.out.println("Weird");
     } else if (n>=2 && n<=5) {
