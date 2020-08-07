@@ -12,7 +12,7 @@ func main() {
 	if ints == nil {
 		fmt.Println("Error slice of int is empty or of invalid type.")
 	} else {
-		for eo := range ints {
+		for _, eo := range ints {
 			if eo%2 == 0 {
 				fmt.Println(eo, "is even")
 			} else {
