@@ -7,13 +7,11 @@ import (
 )
 
 func main() {
-	filename := os.Args[1]
-
-	readFile(filename)
+	readFile()
 }
 
-func readFile(f string) {
-	file, err := os.Open(f)
+func readFile() {
+	file, err := os.Open(os.Args[1])
 	if err != nil {
 		fmt.Println("Error: ", err)
 	}
