@@ -1,6 +1,7 @@
 def main(x):
-    x=(5*(x-32)/9)    
-    print(x, "degree celsius.")
+    x=(5*(x-32)/9)  
+
+    print("%.2f degree celsius."%x)
 
 if __name__ == "__main__":
     print("Input a degree in Fahrenheit: ")
