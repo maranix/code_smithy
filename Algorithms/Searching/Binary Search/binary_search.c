@@ -2,28 +2,41 @@
 #include <stdbool.h>
 
 /**
- * C Program for Sequential Search Algorithm.
+ * C Program for Binary Search Algorithm.
  * TODO: Implement malloc/calloc method to allocate the array.
  * 
 */
 int main() {
-    int list[9] = {1,2,32,8,19,42,62,34,24};
+    const int list[9] = {1,2,8,19,24,32,34,42,62};
     int n;
     bool found = false;
-    
+    int first=0, last=(sizeof(list) / sizeof(int))-1, mid;
 
     printf("Enter a number to search in the list: ");
     scanf("%d", &n);
 
-    for (int i = 0; i < sizeof(list)/sizeof(list[0]); i++){
-        if(list[i] == n){
-            printf("\n%d found at list index: %d\n",n, i);
+    while (first <= last && !found) {
+        mid=(first + last)/2;
+        printf("Comparing %d with %d\n", list[mid], n);
+        if (list[mid] == n) {
+            printf("Match found!");
             found = true;
-            break;
+        }
+        else {
+            printf("Comparing %d with %d\n", list[mid], n);
+            if (n < list[mid]) {
+                last = mid - 1;
+            }
+            else {
+                first = mid + 1;
+            }
         }
     }
+
     if (found == false){
         printf("\n%d not found in the list\n",n);
+    } else {
+        printf("\n%d is present in the list\n",n);
     }
     return 0;
 }
