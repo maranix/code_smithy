@@ -86,3 +86,8 @@
 
 -   Dequeue
 -   Priority Queue
+
+
+## **Hash Table:-**
+
+-   Implementation
