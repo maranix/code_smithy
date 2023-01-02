@@ -7,7 +7,7 @@
 - [ ]  Representation of Arrays
     - [ ]  Row Major Order
     - [ ]  Column Major Order
-- [ ] Derivation of Index Formalae
+- [ ] Derivation of Index
     - [ ]  1-D Array
     - [ ]  2-D Array
 - [ ] Sparse Matrices

@@ -6,7 +6,6 @@
 - [ ] Index Sequential Searching
 - [ ]   Binary Search
 - [ ]  Hashing
-- [ ]  Collision Resolution
 - [ ]  Bread first search (BFS)
 - [ ]  Deapth first search (DFS)
 
@@ -18,7 +17,6 @@
 - [ ]  Heap sort
 - [ ]  Merge sort
 - [ ]  Quick sort
-- [ ]  Overall comparision of sorting algorithms in graph format based on time complexity
 
 ## **Other Algorithms**:-
 
