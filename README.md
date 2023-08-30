@@ -10,155 +10,48 @@ This repository offers a comprehensive learning experience that covers a wide ra
 
 To get started with this repository, simply navigate to the relevant directories for data structures and algorithms. Each directory contains in-depth explanations, code implementations, and practical examples to help you grasp the concepts effectively.
 
-### Data Structures
+## Data Structures
+<details>
+<summary>Click to expand</summary>
 
 Explore the following data structures and their applications:
 
-- [ ] **Array**
-  - Description: Learn about dynamic arrays, their efficient manipulation, and common operations like insertion and deletion.
-  - Implementations:
-    - [ ] Static implementation
-    - [ ] ArrayList (Dynamic implementation)
-  - Applications: Storing collections of elements, dynamic resizing, and basic list operations.
+| Data Structure | Completed | Implementations |
+|----------------|-----------|----------------|
+| Array          | ❌         | Static implementation<br>ArrayList (Dynamic implementation) |
+| Set            | ❌         | Hash set using hash maps<br>Set using balanced binary search trees |
+| HashMap        | ❌         | Hash map with separate chaining for collision resolution<br>Hash map with open addressing for collision resolution |
+| Stack          | ❌         | Stack using arrays<br>Stack using linked lists |
+| Queue          | ❌         | Queue using arrays<br>Queue using linked lists |
+| Linked List    | ❌         | Singly linked list<br>Doubly linked list |
+| Tree           | ❌         | Binary tree<br>Binary search tree (BST)<br>Balanced tree (e.g., AVL tree) |
+| Heap           | ❌         | Min Heap <br> Max Heap |
+| Trie           | ❌         | Trie for storing strings |
+| Graph          | ❌         | Adjacency matrix representation<br>Adjacency list representation |
 
-- [ ] **Set**
-  - Description: Discover how sets can be used for storing unique elements and performing set operations.
-  - Implementations:
-    - [ ] Hash set using hash maps
-    - [ ] Set using balanced binary search trees
-  - Applications: Removing duplicates, checking membership, intersection, union, and difference operations.
+</details>
 
-- [ ] **HashMap**
-  - Description: Understand the principles of hash maps and their role in efficient data storage and retrieval.
-  - Implementations:
-    - [ ] Hash map with separate chaining for collision resolution
-    - [ ] Hash map with open addressing for collision resolution
-  - Applications: Efficient key-value storage, frequency counting, caching, and more.
-
-- [ ] **Stack**
-  - Description: Dive into the stack data structure, its implementations, and practical use cases.
-  - Implementations:
-    - [ ] Stack using arrays
-    - [ ] Stack using linked lists
-  - Applications: Expression evaluation, function call tracking, backtracking algorithms, and more.
-
-- [ ] **Queue**
-  - Description: Explore the queue data structure and its various implementations.
-  - Implementations:
-    - [ ] Queue using arrays
-    - [ ] Queue using linked lists
-  - Applications: Breadth-first search, scheduling tasks, managing resources, and more.
-
-- [ ] **Linked List**
-  - Description: Master linked lists, including singly and doubly linked lists, and their advantages.
-  - Implementations:
-    - [ ] Singly linked list
-    - [ ] Doubly linked list
-  - Applications: Dynamic memory allocation, maintaining order, implementing other data structures, and more.
-
-- [ ] **Tree**
-  - Description: Study trees and their variations, such as binary trees and balanced trees.
-  - Implementations:
-    - [ ] Binary tree
-    - [ ] Binary search tree (BST)
-    - [ ] Balanced tree (e.g., AVL tree)
-  - Applications: Organizing hierarchical data, efficient searching and insertion, decision trees, and more.
-
-- [ ] **Heap**
-  - Description: Learn about heaps and priority queues for efficient element retrieval.
-  - Implementations:
-    - [ ] Binary heap (min heap and max heap)
-  - Applications: Implementing priority queues, heap sort, finding k largest (or smallest) elements, and more.
-
-- [ ] **Trie**
-  - Description: Explore trie structures and their application in string-related problems.
-  - Implementations:
-    - [ ] Trie for storing strings
-  - Applications: Efficient string searching, autocomplete, dictionary storage, and more.
-
-- [ ] **Graph**
-  - Description: Understand graph structures and their algorithms for traversal and pathfinding.
-  - Implementations:
-    - [ ] Adjacency matrix representation
-    - [ ] Adjacency list representation
-  - Applications: Shortest path algorithms (Dijkstra's, Bellman-Ford), topological sorting, connectivity analysis, and more.
-
-### Algorithms
+## Algorithms
+<details>
+<summary>Click to expand</summary>
 
 Delve into a variety of algorithmic techniques and strategies:
 
-- [ ] **Searching**
-  - Description: Learn various searching algorithms, including binary search and graph traversal.
-  - Algorithms:
-    - [ ] Linear search
-    - [ ] Binary search
-    - [ ] Depth-first search (DFS)
-    - [ ] Breadth-first search (BFS)
-  - Applications: Finding elements in arrays, graph traversal, pathfinding.
+| Algorithm               | Completed | Implementations |
+|-------------------------|-----------|----------------|
+| Searching               | ❌         | Linear search<br>Binary search<br>Depth-first search (DFS)<br>Breadth-first search (BFS) |
+| Sorting                 | ❌         | Bubble sort<br>Selection sort<br>Insertion sort<br>QuickSort<br>MergeSort |
+| Strassen's Algorithm    | ❌         | Matrix multiplication using Strassen's algorithm |
+| Dijkstra's Algorithm    | ❌         | Dijkstra's algorithm for finding shortest paths in graphs |
+| Bellman-Ford Algorithm  | ❌         | Bellman-Ford algorithm for finding shortest paths |
+| Floyd-Warshall Algorithm| ❌         | Floyd-Warshall algorithm for finding shortest paths between all pairs of vertices |
+| Longest Common Subsequence | ❌    | Dynamic programming approach for finding longest common subsequences |
+| Prim's Algorithm        | ❌         | Prim's algorithm for constructing minimum spanning trees |
+| Kruskal's Algorithm     | ❌         | Kruskal's algorithm for constructing minimum spanning trees |
+| Manacher's Algorithm    | ❌         | Manacher's algorithm for palindrome detection |
+| Pattern Matching        | ❌         | Suffix array construction and pattern matching |
 
-- [ ] **Sorting**
-  - Description: Explore different sorting algorithms like QuickSort and MergeSort.
-  - Algorithms:
-    - [ ] Bubble sort
-    - [ ] Selection sort
-    - [ ] Insertion sort
-    - [ ] QuickSort
-    - [ ] MergeSort
-  - Applications: Sorting arrays or lists for efficient data retrieval, searching, and more.
-
-- [ ] **Strassen's Algorithm**
-  - Description: Understand matrix multiplication optimization using Strassen's algorithm.
-  - Algorithm:
-    - [ ] Matrix multiplication using Strassen's algorithm.
-  - Applications: Optimizing matrix multiplication in scientific computing.
-
-- [ ] **Dijkstra's Algorithm**
-  - Description: Master shortest path finding in weighted graphs using Dijkstra's algorithm.
-  - Algorithm:
-    - [ ] Dijkstra's algorithm for finding shortest paths in graphs.
-  - Applications: Routing, navigation systems, network optimization.
-
-- [ ] **Bellman-Ford Algorithm**
-  - Description: Learn about single-source shortest paths in graphs with negative weights.
-  - Algorithm:
-    - [ ] Bellman-Ford algorithm for finding shortest paths.
-  - Applications: Graphs with negative weights, distance vector routing.
-
-- [ ] **Floyd-Warshall Algorithm**
-  - Description: Understand all-pairs shortest paths in graphs.
-  - Algorithm:
-    - [ ] Floyd-Warshall algorithm for finding shortest paths between all pairs of vertices.
-  - Applications: Shortest paths in dense graphs, network analysis.
-
-- [ ] **Longest Common Subsequence**
-  - Description: Explore dynamic programming for solving sequence-related problems.
-  - Algorithm:
-    - [ ] Dynamic programming approach for finding longest common subsequences.
-  - Applications: Text comparison, DNA sequence alignment, bioinformatics.
-
-- [ ] **Prim's Algorithm**
-  - Description: Dive into finding minimum spanning trees using Prim's algorithm.
-  - Algorithm:
-    - [ ] Prim's algorithm for constructing minimum spanning trees.
-  - Applications: Network design, cluster analysis, spanning tree generation.
-
-- [ ] **Kruskal's Algorithm**
-  - Description: Master minimum spanning tree construction with Kruskal's algorithm.
-  - Algorithm:
-    - [ ] Kruskal's algorithm for constructing minimum spanning trees.
-  - Applications: Network design, clustering, spanning tree generation.
-
-- [ ] **Manacher's Algorithm**
-  - Description: Discover a linear-time algorithm for finding the longest palindromic substring.
-  - Algorithm:
-    - [ ] Manacher's algorithm for palindrome detection.
-  - Applications: Text processing, DNA sequence analysis.
-
-- [ ] **Pattern Matching**
-  - Description: Learn about pattern matching and its application.
-  - Algorithm:
-    - [ ] Suffix array construction and pattern matching.
-  - Applications: Text search, substring search, bioinformatics.
+</details>
 
 ## Contribution
 
