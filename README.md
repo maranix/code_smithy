@@ -21,7 +21,7 @@ Explore the following data structures and their applications:
 | Array          | ❌         | Static implementation<br>ArrayList (Dynamic implementation) |
 | Set            | ❌         | Hash set using hash maps<br>Set using balanced binary search trees |
 | HashMap        | ❌         | Hash map with separate chaining for collision resolution<br>Hash map with open addressing for collision resolution |
-| Stack          | ❌         | Stack using arrays<br>Stack using linked lists |
+| Stack          | ❌         | Stack using arrays<br>Stack using linked lists<br>Increasing Monotonic Stack<br>Decreasing Monotonic Stack |
 | Queue          | ❌         | Queue using arrays<br>Queue using linked lists |
 | Linked List    | ❌         | Singly linked list<br>Doubly linked list |
 | Tree           | ❌         | Binary tree<br>Binary search tree (BST)<br>Balanced tree (e.g., AVL tree) |
