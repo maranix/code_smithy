@@ -1,4 +1,3 @@
-export 'array/array.dart';
 export 'set/set.dart';
 export 'stack/stack.dart';
 export 'hashmap/hashmap.dart';
